@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">NJUcsPet</title>
+  <desc id="desc">一只会住在 Windows 窗口上的玳瑁猫桌面宠物</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#16131e"/>
+      <stop offset="0.48" stop-color="#2b1d32"/>
+      <stop offset="1" stop-color="#5e352c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="78%" cy="42%" r="45%">
+      <stop offset="0" stop-color="#f3ad67" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#f3ad67" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000" flood-opacity=".35"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="34" fill="url(#bg)"/>
+  <rect width="1200" height="360" rx="34" fill="url(#glow)"/>
+  <g opacity=".13" fill="#ffd5a2">
+    <circle cx="90" cy="78" r="18"/><circle cx="72" cy="51" r="9"/><circle cx="92" cy="42" r="9"/><circle cx="113" cy="51" r="9"/>
+    <circle cx="1090" cy="292" r="18"/><circle cx="1072" cy="265" r="9"/><circle cx="1092" cy="256" r="9"/><circle cx="1113" cy="265" r="9"/>
+    <circle cx="1030" cy="70" r="12"/><circle cx="1017" cy="52" r="6"/><circle cx="1030" cy="46" r="6"/><circle cx="1044" cy="52" r="6"/>
+  </g>
+  <g transform="translate(790 54)" filter="url(#shadow)">
+    <path d="M71 93 48 31l55 36c25-12 62-12 88 0l55-36-23 63c24 21 38 51 38 84 0 69-57 125-127 125S7 247 7 178c0-34 14-64 38-85z" fill="#17141a" stroke="#efb06f" stroke-width="5"/>
+    <path d="M61 63 51 43l32 21M211 63l10-20-32 21" fill="none" stroke="#8c4d3d" stroke-width="9" stroke-linecap="round"/>
+    <ellipse cx="92" cy="162" rx="17" ry="23" fill="#d9e8a5"/>
+    <ellipse cx="176" cy="162" rx="17" ry="23" fill="#d9e8a5"/>
+    <ellipse cx="96" cy="164" rx="6" ry="15" fill="#1a151b"/>
+    <ellipse cx="172" cy="164" rx="6" ry="15" fill="#1a151b"/>
+    <path d="m134 186-13 10 13 8 13-8z" fill="#9d5f58"/>
+    <path d="M134 204c-8 14-22 13-31 5m31-5c8 14 22 13 31 5" fill="none" stroke="#e2b298" stroke-width="4" stroke-linecap="round"/>
+    <path d="M61 114c22-24 47-31 62-22M193 109c-17-16-35-22-49-14M70 232c35 21 88 24 126 2" fill="none" stroke="#9b553c" stroke-width="14" stroke-linecap="round" opacity=".9"/>
+    <path d="M37 178 0 165m38 28L0 197m230-19 37-13m-37 28 37 4" stroke="#f1c8a5" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+  </g>
+  <g fill="#fff">
+    <text x="92" y="132" font-family="Segoe UI, Microsoft YaHei UI, sans-serif" font-size="72" font-weight="750" letter-spacing="2">NJUcsPet</text>
+    <text x="96" y="187" font-family="Segoe UI, Microsoft YaHei UI, sans-serif" font-size="26" fill="#f3c79c">住在窗口边缘的玳瑁猫桌面宠物</text>
+  </g>
+  <g transform="translate(96 232)" font-family="Segoe UI, Microsoft YaHei UI, sans-serif" font-size="18">
+    <rect width="132" height="42" rx="21" fill="#ffffff" fill-opacity=".1" stroke="#ffffff" stroke-opacity=".17"/>
+    <text x="66" y="27" text-anchor="middle" fill="#fff">Windows</text>
+    <rect x="146" width="160" height="42" rx="21" fill="#ffffff" fill-opacity=".1" stroke="#ffffff" stroke-opacity=".17"/>
+    <text x="226" y="27" text-anchor="middle" fill="#fff">窗口感知</text>
+    <rect x="320" width="160" height="42" rx="21" fill="#ffffff" fill-opacity=".1" stroke="#ffffff" stroke-opacity=".17"/>
+    <text x="400" y="27" text-anchor="middle" fill="#fff">透明动画</text>
+  </g>
+</svg>

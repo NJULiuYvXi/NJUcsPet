@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Electron build output
+dist/
+out/
+release/
+tests/render-output/
+
+# Runtime and debug files
+*.log
+npm-debug.log*
+desktop-pet-errors.log
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated image-processing intermediates
+assets/cat-spritesheet-source.png
+assets/cat-spritesheet.png
+assets/cat-spritesheet-normalized.png
+assets/cat-ride-*-source.png
+assets/cat-ride-*-transparent.png
+assets/cat-ride-*-normalized.png
+assets/cat-*-native18-source.png
+assets/cat-*-native18-transparent.png
+
+# Superseded PowerShell tracker (native helper is used at runtime)
+scripts/track-window.ps1

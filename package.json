@@ -1,0 +1,59 @@
+{
+  "name": "nju-cs-pete",
+  "version": "1.0.3",
+  "private": true,
+  "description": "A transparent Windows desktop pet starring Pete the tortoiseshell cat.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder --win nsis",
+    "dist:portable": "electron-builder --win portable"
+  },
+  "devDependencies": {
+    "electron": "^37.2.6",
+    "electron-builder": "^26.0.12"
+  },
+  "build": {
+    "appId": "com.nju.cs.pete",
+    "productName": "NJUcsPete",
+    "asar": true,
+    "asarUnpack": [
+      "bin/WindowTracker.exe",
+      "bin/WindowProbe.exe"
+    ],
+    "files": [
+      "main.js",
+      "lib/**/*",
+      "preload.js",
+      "renderer/**/*",
+      "assets/cat-spritesheet-smooth.png",
+      "assets/cat-ride-front-smooth.png",
+      "assets/cat-ride-rear-smooth.png",
+      "assets/app-icon.ico",
+      "bin/WindowTracker.exe",
+      "bin/WindowProbe.exe",
+      "scripts/**/*",
+      "package.json"
+    ],
+    "win": {
+      "target": ["nsis"],
+      "icon": "assets/app-icon.ico",
+      "artifactName": "NJUcsPet-Setup.${ext}"
+    },
+    "nsis": {
+      "include": "build/installer.nsh",
+      "oneClick": false,
+      "perMachine": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "createStartMenuShortcut": true,
+      "shortcutName": "NJUcsPete",
+      "runAfterFinish": true,
+      "deleteAppDataOnUninstall": false,
+      "installerIcon": "assets/app-icon.ico",
+      "uninstallerIcon": "assets/app-icon.ico"
+    }
+  }
+}
