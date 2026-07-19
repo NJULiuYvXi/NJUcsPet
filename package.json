@@ -1,8 +1,8 @@
 {
   "name": "nju-cs-pete",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "private": true,
-  "description": "A transparent Windows desktop pet starring Pete the tortoiseshell cat.",
+  "description": "The official NJUcs Windows desktop pet.",
   "main": "main.js",
   "scripts": {
     "start": "electron .",

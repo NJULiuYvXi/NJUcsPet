@@ -79,13 +79,13 @@ body {
   left: 50%;
   bottom: 8px;
   translate: -50% 0;
-  padding: 5px 9px;
+  padding: 6px 11px;
   color: #5a3d2c;
   background: rgb(255 250 239 / 92%);
   border: 1px solid rgb(138 91 60 / 18%);
   border-radius: 999px;
   box-shadow: 0 3px 12px rgb(61 31 15 / 14%);
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1;
   white-space: nowrap;
   pointer-events: none;

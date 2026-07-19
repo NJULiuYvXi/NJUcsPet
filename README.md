@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./docs/hero.svg" alt="NJUcsPet — 住在窗口边缘的玳瑁猫桌面宠物" width="100%">
+  <img src="./docs/hero.svg" alt="NJUcsPet — NJUcs御用宠物" width="100%">
 </p>
 
 <p align="center">
@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  一只以真实玳瑁猫为原型的 Windows 透明桌面宠物。<br>
+  NJUcs御用宠物，一只会住在 Windows 窗口边缘的透明桌面伙伴。<br>
   她会在窗口顶部散步、吃饭、休息，也会跟着被拖动的窗口一起兜风。
 </p>
 
@@ -131,6 +131,12 @@ NJUcsPet/
 ```
 
 ## 版本记录
+
+### v1.0.4
+
+- 将公开定位统一更新为“NJUcs御用宠物”，不再使用品种名称作为宣传描述。
+- 同步更新仓库介绍、README 顶图、程序辅助说明与安装包元数据。
+- 将桌宠提示文字由 11 px 放大到 13 px，并在最小窗口尺寸下重新完成截图验收。
 
 ### v1.0.3
 
